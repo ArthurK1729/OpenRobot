@@ -1,0 +1,3 @@
+1. Parallelise model training
+2. Figure out a scheme where you begin your first round by training a lot of models but on a small dataset?
+3. Research more heuristics and bake them into the automation
