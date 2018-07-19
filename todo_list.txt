@@ -1,3 +1,10 @@
 1. Parallelise model training
 2. Figure out a scheme where you begin your first round by training a lot of models but on a small dataset?
 3. Research more heuristics and bake them into the automation
+4. Make each thread constantly look up and write to the variable containing the score of the best model
+If the best model has a higher score than what's currently being trained, just forget about it and do another model
+5. We can print contents of functions using
+import inspect
+lines = inspect.getsource(foo)
+print(lines)
+6. Fix inheritace structures

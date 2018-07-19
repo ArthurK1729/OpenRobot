@@ -4,26 +4,44 @@ from numpy import loadtxt
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from sklearn.model_selection import GridSearchCV
 
-dataset = pd.read_csv(os.path.join('..', 'test_data', 'pima-indians-diabetes.csv'), header=None)
+parameters = {'objective':['binary:logistic'],
+              'learning_rate': [0.05], #so called `eta` value
+              'max_depth': [6],
+              'min_child_weight': [11],
+              'silent': [1],
+              'subsample': [0.8],
+              'colsample_bytree': [0.7],
+              'n_estimators': [5], #number of trees, change it to 1000 for better results
+              'missing':[-999],
+              'seed': [1337]}
 
-# First XGBoost model for Pima Indians dataset
 
-# load data
-# dataset = loadtxt('pima-indians-diabetes.csv', delimiter=",")
-# split data into X and y
 X = dataset.iloc[:, 0:8]
 Y = dataset.iloc[:,8]
-# split data into train and test sets
+
+
+
 seed = 7
 test_size = 0.33
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=test_size, random_state=seed)
-# fit model no training data
+
+
 model = XGBClassifier()
-model.fit(X_train, y_train)
-# make predictions for test data
-y_pred = model.predict(X_test)
+
+clf = GridSearchCV(model, parameters,
+                   scoring='roc_auc',
+                   verbose=2, refit=True)
+
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
 predictions = [round(value) for value in y_pred]
-# evaluate predictions
+
+
+
 accuracy = accuracy_score(y_test, predictions)
 print("Accuracy: %.2f%%" % (accuracy * 100.0))

@@ -10,5 +10,5 @@ class PrintableCodeAbstractClass(ABC):
         pass
 
     @abstractmethod
-    def get_depedencies(self):
+    def get_dependencies(self):
         pass
