@@ -9,3 +9,5 @@ if __name__ == '__main__':
 
     model.fit()
     model.predict()
+
+    print('Generated code is: ' + model.to_code())

@@ -8,3 +8,5 @@ import inspect
 lines = inspect.getsource(foo)
 print(lines)
 6. Fix inheritace structures
+7. Add support for stacked models (how is that going to play out?)
+8. Maybe create special printable functions that are print ready. Of course, don't forget to remove self.
