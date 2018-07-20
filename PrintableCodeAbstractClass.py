@@ -6,7 +6,7 @@ class PrintableCodeAbstractClass(ABC):
     """
 
     @abstractmethod
-    def to_code(self):
+    def get_code(self):
         pass
 
     @abstractmethod

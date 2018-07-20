@@ -10,3 +10,5 @@ model_parameters = {
                               'missing': [-999],
                               'seed': [1337]}
 }
+
+test_size = 0.33
