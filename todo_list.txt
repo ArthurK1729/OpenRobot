@@ -10,3 +10,7 @@ print(lines)
 6. Fix inheritace structures
 7. Add support for stacked models (how is that going to play out?)
 8. Maybe create special printable functions that are print ready. Of course, don't forget to remove self.
+9. Fix get_code printing issues. We're still getting unnecessary tabs
+10. Python != Java. Don't do type checking
+11. Although, maybe if we can introduce types and cyphon, we could speed up the overall project
+12. GPU training?
