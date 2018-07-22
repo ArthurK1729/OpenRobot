@@ -11,3 +11,5 @@ If the best model has a higher score than what's currently being trained, just f
 14. Use sklearn pipelines?
 15. Add Keras support for neural nets (again, GPU optimised?)
 16. Combine all preprocessors into one neat pipeline later
+17. For now just create a metadata file (possibly in config) that specifies which transformation should be applied to
+which column. Later add intelligence to automate it.

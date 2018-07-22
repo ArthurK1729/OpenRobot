@@ -35,9 +35,8 @@ class Preprocessor(PrintableCodeAbstractClass):
 
     def preprocess_columns(self):
         encoder = OneHotEncoder('Animals')
+        self.applied_heuristics.append(encoder)
         print(encoder.transform(self.df).head())
-        print(encoder.get_dependencies()[0])
-        print(encoder.get_code())
 
 
 
@@ -69,7 +68,7 @@ class Preprocessor(PrintableCodeAbstractClass):
                               .replace('self.', '')
                               .replace('return ', 'model = ')).strip()
 
-        return "\n".join(list(map(extract_code, [inspect.getsourcelines(self.load_data())[0],
+        return "\n".join(list(map(extract_code, [inspect.getsourcelines(self.load_data)[0],
                                                  inspect.getsourcelines(self.do_splits)[0]])) +
                          list(map(lambda heuristic: heuristic.get_code(), self.applied_heuristics)))
 
