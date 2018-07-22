@@ -12,3 +12,4 @@ model_parameters = {
 }
 
 test_size = 0.33
+seed = 7

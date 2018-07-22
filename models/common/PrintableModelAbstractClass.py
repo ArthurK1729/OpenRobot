@@ -1,4 +1,4 @@
-from PrintableCodeAbstractClass import PrintableCodeAbstractClass
+from common.PrintableCodeAbstractClass import PrintableCodeAbstractClass
 from abc import abstractmethod
 import inspect
 import re

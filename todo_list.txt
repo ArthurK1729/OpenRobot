@@ -3,14 +3,11 @@
 3. Research more heuristics and bake them into the automation
 4. Make each thread constantly look up and write to the variable containing the score of the best model
 If the best model has a higher score than what's currently being trained, just forget about it and do another model
-5. We can print contents of functions using
-import inspect
-lines = inspect.getsource(foo)
-print(lines)
-6. Fix inheritace structures
 7. Add support for stacked models (how is that going to play out?)
-8. Maybe create special printable functions that are print ready. Of course, don't forget to remove self.
-9. Fix get_code printing issues. We're still getting unnecessary tabs
-10. Python != Java. Don't do type checking
+10. Python != Java. Don't do type checking. Just do duck typing (manually checking if it satisfies a certain interface)
 11. Although, maybe if we can introduce types and cyphon, we could speed up the overall project
 12. GPU training?
+13. https://elitedatascience.com/feature-engineering-best-practices
+14. Use sklearn pipelines?
+15. Add Keras support for neural nets (again, GPU optimised?)
+16. Combine all preprocessors into one neat pipeline later

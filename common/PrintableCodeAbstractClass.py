@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-import inspect
 
 
 class PrintableCodeAbstractClass(ABC):

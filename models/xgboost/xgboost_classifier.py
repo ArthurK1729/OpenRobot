@@ -1,5 +1,4 @@
-from models.PrintableModelAbstractClass import PrintableModelAbstractClass
-from models.xgboost.imports.imports import *
+from models.common.PrintableModelAbstractClass import PrintableModelAbstractClass
 import models.xgboost.imports.imports
 from sklearn.metrics import accuracy_score
 
@@ -14,9 +13,9 @@ class XgboostClassifier(PrintableModelAbstractClass):
 
     def get_model(self):
         return GridSearchCV(XGBClassifier(),
-                   config.model_parameters['XGBoostClassifier'],
-                   scoring = 'roc_auc',
-                   verbose= 2, refit=True)
+                            config.model_parameters['XGBoostClassifier'],
+                            scoring = 'roc_auc',
+                            verbose= 2, refit=True)
 
     def fit(self):
         self.model.fit(self.X_train, self.Y_train)
