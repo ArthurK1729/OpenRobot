@@ -6,7 +6,8 @@ import re
 import inspect
 from functools import reduce
 
-from preprocessing.one_hot_encoder.OneHotEncoder import OneHotEncoder
+from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
+from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
 
 
 class Preprocessor(PrintableCodeAbstractClass):
@@ -34,14 +35,20 @@ class Preprocessor(PrintableCodeAbstractClass):
         super().__init__()
 
     def preprocess_columns(self):
-        encoder = OneHotEncoder('Animals')
-        self.applied_heuristics.append(encoder)
-        print(encoder.transform(self.df).head())
+        encoder1 = OneHotEncoderStep('new_col')
+        encoder2 = LabelEncoderStep('Animals')
+        self.applied_heuristics.extend([encoder1, encoder2])
+        self.apply_heuristics()
+        print(self.df.head())
 
 
 
     def load_data(self):
         self.df = pd.read_csv(self.path_to_data)
+
+    def apply_heuristics(self):
+        for heuristic in self.applied_heuristics:
+            self.df = heuristic.transform(self.df)
 
     def do_splits(self):
         X = self.df.iloc[:, 0:8]

@@ -5,5 +5,5 @@ from abc import abstractmethod
 class PrintablePreprocessorAbstractClass(PrintableCodeAbstractClass):
 
     @abstractmethod
-    def transform(self, df, col_name):
+    def transform(self, df):
         pass

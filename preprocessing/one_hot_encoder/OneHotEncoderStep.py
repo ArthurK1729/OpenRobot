@@ -5,7 +5,7 @@ import inspect
 import re
 
 
-class OneHotEncoder(PrintablePreprocessorAbstractClass):
+class OneHotEncoderStep(PrintablePreprocessorAbstractClass):
 
     def __init__(self, col_name):
         self.imports_loc = preprocessing.one_hot_encoder.imports.imports
