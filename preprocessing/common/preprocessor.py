@@ -8,6 +8,7 @@ from functools import reduce
 
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
+from preprocessing.log_trasform.LogTransformStep import LogTransformStep
 
 
 class Preprocessor(PrintableCodeAbstractClass):
@@ -37,7 +38,8 @@ class Preprocessor(PrintableCodeAbstractClass):
     def preprocess_columns(self):
         encoder1 = OneHotEncoderStep('new_col')
         encoder2 = LabelEncoderStep('Animals')
-        self.applied_heuristics.extend([encoder1, encoder2])
+        encoder3 = LogTransformStep('continuous')
+        self.applied_heuristics.extend([encoder1, encoder2, encoder3])
         self.apply_heuristics()
         print(self.df.head())
 

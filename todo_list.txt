@@ -13,3 +13,5 @@ If the best model has a higher score than what's currently being trained, just f
 16. Combine all preprocessors into one neat pipeline later
 17. For now just create a metadata file (possibly in config) that specifies which transformation should be applied to
 which column. Later add intelligence to automate it.
+18. Bake best practices for preprocessing into a decision tree. Start with integer/float/string columns and bake in special cases
+19. Fix regex of  LogTransform and the rest. If the first non-\t and non-space character is a dot, don't strip. Otherwise, strip.

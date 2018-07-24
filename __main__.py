@@ -4,7 +4,7 @@ import os
 if __name__ == '__main__':
     print('Execution started!')
 
-    preprocessor = Preprocessor(os.path.join('test_data', 'one_hot_test.csv'))
+    preprocessor = Preprocessor(os.path.join('test_data', 'test_data.csv'))
 
     # model = XgboostClassifier(*preprocessor.get_splits())
     # model.fit()
