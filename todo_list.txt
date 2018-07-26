@@ -15,3 +15,6 @@ If the best model has a higher score than what's currently being trained, just f
 which column. Later add intelligence to automate it.
 18. Bake best practices for preprocessing into a decision tree. Start with integer/float/string columns and bake in special cases
 19. Fix regex of  LogTransform and the rest. If the first non-\t and non-space character is a dot, don't strip. Otherwise, strip.
+20. For the text analytics section, add my synonym substitution heuristic
+21. But ultimately create a GAN based data augmenter
+22. Mark private methods as private.

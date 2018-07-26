@@ -9,6 +9,7 @@ from functools import reduce
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
 from preprocessing.log_trasform.LogTransformStep import LogTransformStep
+from preprocessing.imputer.ImputerStep import ImputerStep
 
 
 class Preprocessor(PrintableCodeAbstractClass):
@@ -39,7 +40,8 @@ class Preprocessor(PrintableCodeAbstractClass):
         encoder1 = OneHotEncoderStep('new_col')
         encoder2 = LabelEncoderStep('Animals')
         encoder3 = LogTransformStep('continuous')
-        self.applied_heuristics.extend([encoder1, encoder2, encoder3])
+        encoder4 = ImputerStep('missing_float')
+        self.applied_heuristics.extend([encoder1, encoder2, encoder3, encoder4])
         self.apply_heuristics()
         print(self.df.head())
 
