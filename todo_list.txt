@@ -21,3 +21,6 @@ which column. Later add intelligence to automate it.
 23. Add categorical hashing
 24. Train decision trees to validate preprocessing steps
 25. Implement preprocessing logic as a tree (with the accompanying data structure)
+26. Print execution plan when preprocessing checks finish
+27. Create a config file to define the checker graph
+28. Convert yaml to graphml -> visualise checker graph in networkx

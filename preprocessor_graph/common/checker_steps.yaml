@@ -1,0 +1,18 @@
+CheckerRoot:
+  - CheckClassification:
+              - CheckInteger:
+                        - CheckIntegerImputation:
+                                              - CheckIDlike
+                                              - CheckIntegerClassLike
+                                              - CheckOrdinalLike
+              - CheckFloat:
+                        - CheckFloatImputation:
+                                            - CheckLogTransformApplicability
+                                            - CheckBoxCoxApplicability
+              - CheckString:
+                        - CheckStringImputation:
+                                            - CheckStringClassLike
+                                            - CheckStringOrdinalLike
+  - CheckRegression:
+              - op1
+              - op2
