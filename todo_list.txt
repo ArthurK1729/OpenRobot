@@ -18,3 +18,6 @@ which column. Later add intelligence to automate it.
 20. For the text analytics section, add my synonym substitution heuristic
 21. But ultimately create a GAN based data augmenter
 22. Mark private methods as private.
+23. Add categorical hashing
+24. Train decision trees to validate preprocessing steps
+25. Implement preprocessing logic as a tree (with the accompanying data structure)

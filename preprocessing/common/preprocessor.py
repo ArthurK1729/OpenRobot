@@ -5,11 +5,13 @@ from common.PrintableCodeAbstractClass import PrintableCodeAbstractClass
 import re
 import inspect
 from functools import reduce
+from typing import List, Type
 
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
 from preprocessing.log_trasform.LogTransformStep import LogTransformStep
 from preprocessing.imputer.ImputerStep import ImputerStep
+from preprocessing.common.PrintablePreprocessorAbstractClass import PrintablePreprocessorAbstractClass
 
 
 class Preprocessor(PrintableCodeAbstractClass):
@@ -37,15 +39,25 @@ class Preprocessor(PrintableCodeAbstractClass):
         super().__init__()
 
     def preprocess_columns(self):
-        encoder1 = OneHotEncoderStep('new_col')
-        encoder2 = LabelEncoderStep('Animals')
-        encoder3 = LogTransformStep('continuous')
-        encoder4 = ImputerStep('missing_float')
-        self.applied_heuristics.extend([encoder1, encoder2, encoder3, encoder4])
+        # encoder1 = OneHotEncoderStep('new_col')
+        # encoder2 = LabelEncoderStep('Animals')
+        # encoder3 = LogTransformStep('continuous')
+        # encoder4 = ImputerStep('missing_float')
+
+        self._extend_preprocessors([OneHotEncoderStep('new_col'),
+                                    LabelEncoderStep('Animals'),
+                                    LogTransformStep('continuous'),
+                                    ImputerStep('missing_float')
+                                   ])
+        # self.applied_heuristics.extend([encoder1, encoder2, encoder3, encoder4])
         self.apply_heuristics()
         print(self.df.head())
 
+    def _append_preprocessor(self, preprocessor: Type[PrintablePreprocessorAbstractClass]):
+        self.applied_heuristics.append(preprocessor)
 
+    def _extend_preprocessors(self, preprocessors: List[Type[PrintablePreprocessorAbstractClass]]):
+        self.applied_heuristics.extend(preprocessors)
 
     def load_data(self):
         self.df = pd.read_csv(self.path_to_data)
