@@ -5,7 +5,7 @@ from common.PrintableCodeAbstractClass import PrintableCodeAbstractClass
 import re
 import inspect
 from functools import reduce
-from typing import List, Type
+from typing import Sequence, Type
 
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
@@ -56,7 +56,7 @@ class Preprocessor(PrintableCodeAbstractClass):
     def _append_preprocessor(self, preprocessor: Type[PrintablePreprocessorAbstractClass]):
         self.applied_heuristics.append(preprocessor)
 
-    def _extend_preprocessors(self, preprocessors: List[Type[PrintablePreprocessorAbstractClass]]):
+    def _extend_preprocessors(self, preprocessors: Sequence[Type[PrintablePreprocessorAbstractClass]]):
         self.applied_heuristics.extend(preprocessors)
 
     def load_data(self):

@@ -24,3 +24,6 @@ which column. Later add intelligence to automate it.
 26. Print execution plan when preprocessing checks finish
 27. Create a config file to define the checker graph
 28. Convert yaml to graphml -> visualise checker graph in networkx
+
+
+YAML LINTER http://www.yamllint.com/
