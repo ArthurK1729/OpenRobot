@@ -8,8 +8,36 @@ from sklearn.preprocessing import quantile_transform
 # print(quantile_transform(dataset[1], n_quantiles=10, random_state=0).head())
 
 from preprocessor_graph.common.PreprocessorGraph import PreprocessorGraph
+from preprocessor_graph.checks import *
 
-preprocessor_graph = PreprocessorGraph()
-graph = preprocessor_graph.graph
+# Temp imports
+from preprocessor_graph.checks.CheckInteger import CheckInteger
+from preprocessor_graph.checks.CheckFloat import CheckFloat
+from preprocessor_graph.checks.CheckString import CheckString
 
-print(graph)
+
+if __name__ == '__main__':
+    preprocessor_graph = PreprocessorGraph()
+    graph = preprocessor_graph.graph
+
+    # print(graph)
+
+    path_to_data = """C:\\Users\\Arthur\\PycharmProjects\\Open_Robot\\test_data\\test_data.csv"""
+
+    df = pd.read_csv(path_to_data)
+
+    def get_class_obj_from_name(class_name):
+        return globals()[class_name]()
+
+    # Build the recursive checker here
+    for col in df.columns:
+        for type_entry in graph:
+            checker = get_class_obj_from_name(list(type_entry.keys())[0])
+            if checker.check(df[col]):
+                print(str(checker), ' for ', col)
+                break
+
+    #
+    # def do_check():
+    #     pass
+
