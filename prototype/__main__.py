@@ -1,4 +1,5 @@
 import pandas as pd
+from functools import reduce
 import numpy as np
 from sklearn.preprocessing import quantile_transform
 
@@ -8,17 +9,12 @@ from sklearn.preprocessing import quantile_transform
 # print(quantile_transform(dataset[1], n_quantiles=10, random_state=0).head())
 
 from preprocessor_graph.common.PreprocessorGraph import PreprocessorGraph
+
 from preprocessor_graph.checks import *
-
-# Temp imports
-from preprocessor_graph.checks.CheckInteger import CheckInteger
-from preprocessor_graph.checks.CheckFloat import CheckFloat
-from preprocessor_graph.checks.CheckString import CheckString
-
 
 if __name__ == '__main__':
     preprocessor_graph = PreprocessorGraph()
-    graph = preprocessor_graph.graph
+    execution_graph = preprocessor_graph.graph
 
     # print(graph)
 
@@ -29,15 +25,45 @@ if __name__ == '__main__':
     def get_class_obj_from_name(class_name):
         return globals()[class_name]()
 
-    # Build the recursive checker here
-    for col in df.columns:
+    def do_check(col_name, graph, accumulator):
         for type_entry in graph:
-            checker = get_class_obj_from_name(list(type_entry.keys())[0])
-            if checker.check(df[col]):
-                print(str(checker), ' for ', col)
-                break
 
-    #
-    # def do_check():
-    #     pass
+            if type(type_entry) == dict:
+                checker = get_class_obj_from_name(list(type_entry.keys())[0])
+            else:
+                checker = get_class_obj_from_name(type_entry)
+
+            if checker.check(df[col_name]):
+                print(str(checker), ' for ', col_name)
+                accumulator.append(checker.get_preprocessor(col_name))
+
+                # If dict, keep traversing
+                if type(type_entry) == dict:
+                    return do_check(col_name, type_entry[list(type_entry.keys())[0]], accumulator)
+                else:
+                    return accumulator
+
+    def flat_map(to_flatten):
+        def recurse(to_flatten, accumulator):
+            for item in to_flatten:
+                if item is None:
+                    continue
+                elif type(item) == list:
+                    accumulator.extend(recurse(item, []))
+                else:
+                    accumulator.append(item)
+            return accumulator
+
+        return recurse(to_flatten, [])
+
+    col_steps = list()
+
+    for col_name in df.columns:
+        col_steps.append(do_check(col_name, execution_graph, []))
+
+    print(col_steps)
+    print(flat_map(col_steps))
+
+
+
 

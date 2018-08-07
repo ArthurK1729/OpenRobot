@@ -10,7 +10,7 @@ from typing import Sequence, Type
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
 from preprocessing.log_trasform.LogTransformStep import LogTransformStep
-from preprocessing.imputer.ImputerStep import ImputerStep
+from preprocessing.imputer.IntegerImputerStep import IntegerImputerStep
 from preprocessing.common.PrintablePreprocessorAbstractClass import PrintablePreprocessorAbstractClass
 
 
@@ -47,8 +47,8 @@ class Preprocessor(PrintableCodeAbstractClass):
         self._extend_preprocessors([OneHotEncoderStep('new_col'),
                                     LabelEncoderStep('Animals'),
                                     LogTransformStep('continuous'),
-                                    ImputerStep('missing_float')
-                                   ])
+                                    IntegerImputerStep('missing_float')
+                                    ])
         # self.applied_heuristics.extend([encoder1, encoder2, encoder3, encoder4])
         self.apply_heuristics()
         print(self.df.head())

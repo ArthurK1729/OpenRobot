@@ -14,10 +14,10 @@ class CheckString(PreprocessorCheckAbstractClass):
 
     def _string_like(self, df_column):
         # Get 10% of the data
-        sample = df_column.sample(math.ceil(0.1*df_column.size)).dropna()
+        sample = df_column.dropna().sample(math.ceil(0.1*df_column.size))
 
         # Check that every entry of the sample is string like
         return all(self.alphabet.search(entry) for entry in sample)
 
-    def get_preprocessor(self):
+    def get_preprocessor(self, col_name):
         return None

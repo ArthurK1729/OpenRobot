@@ -18,5 +18,5 @@ class PreprocessorCheckAbstractClass(ABC):
         pass
 
     @abstractmethod
-    def get_preprocessor(self) -> Optional[Type[PrintablePreprocessorAbstractClass]]:
+    def get_preprocessor(self, col_name) -> Optional[Type[PrintablePreprocessorAbstractClass]]:
         pass

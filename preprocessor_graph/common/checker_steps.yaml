@@ -2,19 +2,18 @@
 -
   CheckInteger:
     -
-      CheckMissingIntegers:
-        - CheckIDlike
-        - CheckIntegerClassLike
-        - CheckOrdinalLike
+      CheckMissingIntegers
+#        - CheckIDlike
+#        - CheckIntegerClassLike
 -
   CheckFloat:
     -
-      CheckMissingFloats:
-        - CheckLogTransformApplicability
-        - CheckBoxCoxApplicability
+      CheckMissingFloats
+#        - CheckLogTransformApplicability
+#        - CheckBoxCoxApplicability
 -
-  CheckString:
-    -
-      CheckMissingStrings:
-        - CheckStringClassLike
-        - CheckStringOrdinalLike
+  CheckString
+#    -
+#      CheckMissingStrings:
+#        - CheckStringClassLike
+#        - CheckStringOrdinalLike

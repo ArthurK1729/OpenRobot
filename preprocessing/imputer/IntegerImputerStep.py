@@ -5,7 +5,7 @@ import inspect
 import re
 
 
-class ImputerStep(PrintablePreprocessorAbstractClass):
+class IntegerImputerStep(PrintablePreprocessorAbstractClass):
 
     def __init__(self, col_name):
         self.imports_loc = preprocessing.imputer.imports.imports
