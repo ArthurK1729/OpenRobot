@@ -23,6 +23,11 @@ if __name__ == '__main__':
     df = pd.read_csv(path_to_data)
 
     def get_class_obj_from_name(class_name):
+        if class_name not in globals():
+            raise ValueError(f'The class {class_name} has not been declared or imported. Make sure all the entries'
+                             f' in the yaml file have corresponding checker classes '
+                             f' and that they are properly imported.')
+
         return globals()[class_name]()
 
     def do_check(col_name, graph, accumulator):
