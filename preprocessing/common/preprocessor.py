@@ -6,6 +6,7 @@ import re
 import inspect
 from functools import reduce
 from typing import Sequence, Type
+from preprocessing.common.preprocessor_graph.common.PreprocessorGraph import PreprocessorGraph
 
 from preprocessing.one_hot_encoder.OneHotEncoderStep import OneHotEncoderStep
 from preprocessing.label_encoder.LabelEncoderStep import LabelEncoderStep
@@ -44,12 +45,18 @@ class Preprocessor(PrintableCodeAbstractClass):
         # encoder3 = LogTransformStep('continuous')
         # encoder4 = ImputerStep('missing_float')
 
-        self._extend_preprocessors([OneHotEncoderStep('new_col'),
-                                    LabelEncoderStep('Animals'),
-                                    LogTransformStep('continuous'),
-                                    IntegerImputerStep('missing_float')
-                                    ])
+        prep_graph = PreprocessorGraph(self.path_to_data)
+        steps = prep_graph.get_preprocessing_steps()
+
+        # self._extend_preprocessors([OneHotEncoderStep('new_col'),
+        #                             LabelEncoderStep('Animals'),
+        #                             LogTransformStep('continuous'),
+        #                             IntegerImputerStep('missing_float')
+        #                             ])
         # self.applied_heuristics.extend([encoder1, encoder2, encoder3, encoder4])
+
+        self._extend_preprocessors(steps)
+
         self.apply_heuristics()
         print(self.df.head())
 

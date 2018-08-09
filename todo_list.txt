@@ -26,5 +26,7 @@ which column. Later add intelligence to automate it.
 28. Convert yaml to graphml -> visualise checker graph in networkx
 29. Fix import of Checkers
 30. Start putting references to preprocessing steps into checkers
+31. Integrate preprocessor graph into preprocessing. There's really no reason to have a separate class to read in a yaml
+file...
 
 YAML LINTER http://www.yamllint.com/

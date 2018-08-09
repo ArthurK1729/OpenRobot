@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/preprocessor_graph/common/PreprocessorCheckAbstractClass.py" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorCheckAbstractClass.py" line="22" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c13b6f-1c7a-4249-b26b-447e691e270b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" afterPath="$PROJECT_DIR$/common/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/common/preprocessor.py" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor.py" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckFloat.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckInteger.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingFloats.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingIntegers.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingStrings.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/CheckString.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/checks/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/common/PreprocessorCheckAbstractClass.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/common/PreprocessorGraph.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/common/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_graph/common/checker_steps.yaml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/prototype/__main__.py" afterPath="$PROJECT_DIR$/prototype/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/todo_list.txt" afterPath="$PROJECT_DIR$/todo_list.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,32 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="checker_steps.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/common/checker_steps.yaml">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_data.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_data/test_data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -52,8 +45,8 @@
       <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototype/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+            <state relative-caret-position="1272">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -61,57 +54,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckInteger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckInteger.py">
+      <file leaf-file-name="preprocessor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="433">
+              <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
               <folding>
-                <element signature="e#0#99#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckString.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckString.py">
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="72">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/test_data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckInteger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckInteger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreprocessorGraph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorGraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
               <folding>
-                <element signature="e#0#99#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CheckFloat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckFloat.py">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckFloat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegerImputerStep.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckMissingIntegers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingIntegers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="291">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#0#99#0" expanded="true" />
+                <element signature="e#0#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,29 +179,30 @@
         <option value="$PROJECT_DIR$/preprocessing/imputer/imports/imports.py" />
         <option value="$PROJECT_DIR$/preprocessing/imputer/ImputerStep.py" />
         <option value="$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py" />
-        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor.py" />
         <option value="$PROJECT_DIR$/prototype/__init__.py" />
         <option value="$PROJECT_DIR$/prototype/proto.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/common/PreprocessorGraph.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingInteger.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingFloat.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingString.py" />
-        <option value="$PROJECT_DIR$/todo_list.txt" />
         <option value="$PROJECT_DIR$/models/xgboost/xgboost_classifier.py" />
         <option value="$PROJECT_DIR$/models/xgboost/imports/imports.py" />
         <option value="$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py" />
         <option value="$PROJECT_DIR$/preprocessing/imputer/FloatImputerStep.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/__all__.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/common/PreprocessorCheckAbstractClass.py" />
-        <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckFloat.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/__init__.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingFloats.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingIntegers.py" />
-        <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckInteger.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckString.py" />
+        <option value="$PROJECT_DIR$/todo_list.txt" />
+        <option value="$PROJECT_DIR$/test_data/test_data.csv" />
+        <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckInteger.py" />
+        <option value="$PROJECT_DIR$/preprocessor_graph/checks/CheckFloat.py" />
         <option value="$PROJECT_DIR$/preprocessor_graph/common/checker_steps.yaml" />
         <option value="$PROJECT_DIR$/prototype/__main__.py" />
-        <option value="$PROJECT_DIR$/test_data/test_data.csv" />
+        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor.py" />
+        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorGraph.py" />
       </list>
     </option>
   </component>
@@ -214,71 +240,43 @@
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="xgboost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="xgboost" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="imputer" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="log_trasform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessor_graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessor_graph" type="462c0819:PsiDirectoryNode" />
               <item name="checks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessor_graph" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,19 +284,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\common" />
+      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\common" />
+      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessor_graph\checks\type_checks" />
+      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\models\common" />
+      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\imputer" />
       <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\box_cox_transform" />
       <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\log_trasform" />
       <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\label_encoder" />
       <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\test_data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessor_graph\checks\type_checks" />
-      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\preprocessing\common" />
-      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\models\common" />
-      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\common" />
-      <recent name="C:\Users\Arthur\PycharmProjects\Open_Robot\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,7 +342,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Open_Robot" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Arthur\PycharmProjects\Open_Robot\common\__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,11 +402,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41039237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41039237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38918346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38918346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40615058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -518,15 +516,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prototype/proto.py" />
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__main__.py">
+    <entry file="file://$PROJECT_DIR$/common/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -676,38 +666,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype/proto.py" />
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/PrintablePreprocessorAbstractClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/xgboost/imports/imports.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -739,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/common/PreprocessorGraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/__all__.py" />
     <entry file="file://$PROJECT_DIR$/preprocessing/imputer/FloatImputerStep.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -754,17 +709,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/common/PreprocessorCheckAbstractClass.py">
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorCheckAbstractClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingStrings.py">
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -778,92 +733,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingFloats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckMissingIntegers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-138">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckFloat.py">
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/PrintablePreprocessorAbstractClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingIntegers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingFloats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckString.py">
+    <entry file="file://$PROJECT_DIR$/todo_list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/checks/CheckInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_graph/common/checker_steps.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="415">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/test_data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckInteger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckFloat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-from preprocessor_graph.common.PreprocessorCheckAbstractClass import PreprocessorCheckAbstractClass
+from preprocessing.common.preprocessor_graph.common.PreprocessorCheckAbstractClass import PreprocessorCheckAbstractClass
 from preprocessing.imputer.FloatImputerStep import FloatImputerStep
 
 

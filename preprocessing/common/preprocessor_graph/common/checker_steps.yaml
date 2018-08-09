@@ -1,5 +1,7 @@
 ---
 -
+  CheckString
+-
   CheckInteger:
     -
       CheckMissingIntegers
@@ -11,8 +13,7 @@
       CheckMissingFloats
 #        - CheckLogTransformApplicability
 #        - CheckBoxCoxApplicability
--
-  CheckString
+
 #    -
 #      CheckMissingStrings:
 #        - CheckStringClassLike
