@@ -1,5 +1,5 @@
 Animals,new_col,continuous,missing_float,missing_string
-Jaguar,-1,2.48,,
+Jaguar,,2.48,,
 Monkey,0,10002.29383,,
 Monkey,1,2020291.20,25.3,hi
 Dolphin,2,1.5,10.56,bye

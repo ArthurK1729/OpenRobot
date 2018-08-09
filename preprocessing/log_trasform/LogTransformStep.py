@@ -8,8 +8,8 @@ import re
 class LogTransformStep(PrintablePreprocessorAbstractClass):
 
     def __init__(self, col_name):
+        super().__init__(col_name)
         self.imports_loc = preprocessing.log_trasform.imports.imports
-        self.col_name = col_name
 
     def get_code(self):
         def extract_code(text):

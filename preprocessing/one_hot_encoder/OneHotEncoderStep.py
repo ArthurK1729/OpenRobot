@@ -8,8 +8,8 @@ import re
 class OneHotEncoderStep(PrintablePreprocessorAbstractClass):
 
     def __init__(self, col_name):
+        super().__init__(col_name)
         self.imports_loc = preprocessing.one_hot_encoder.imports.imports
-        self.col_name = col_name
 
     def get_code(self):
         def extract_code(text):

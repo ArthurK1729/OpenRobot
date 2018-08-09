@@ -1,20 +1,37 @@
----
 -
-  CheckString
+  CheckString:
+    -
+      CheckMissingStrings:
+        - CheckDropColumn
 -
   CheckInteger:
-    -
-      CheckMissingIntegers
-#        - CheckIDlike
-#        - CheckIntegerClassLike
+    - CheckMissingIntegers
 -
   CheckFloat:
-    -
-      CheckMissingFloats
-#        - CheckLogTransformApplicability
-#        - CheckBoxCoxApplicability
+    - CheckMissingFloats
 
+#---
+#-
+#  CheckString:
 #    -
 #      CheckMissingStrings:
-#        - CheckStringClassLike
-#        - CheckStringOrdinalLike
+#        - DropColumn
+#-
+#  CheckInteger:
+#    -
+#      CheckMissingIntegers
+##        - CheckIDlike
+##        - CheckIntegerClassLike
+#-
+#  CheckFloat:
+#    -
+#      CheckMissingFloats
+##        - CheckLogTransformApplicability
+##        - CheckBoxCoxApplicability
+#
+##    -
+##      CheckMissingStrings:
+##        - CheckStringClassLike
+##        - CheckStringOrdinalLike
+#-
+#  DropColumn
