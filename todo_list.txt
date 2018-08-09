@@ -29,5 +29,7 @@ which column. Later add intelligence to automate it.
 31. Integrate preprocessor graph into preprocessing. There's really no reason to have a separate class to read in a yaml
 file...
 32. Integrate AutoKeras for deep learning optimisation
+33. MAJOR ISSUE: As we go along and apply preprocessing steps to a column, its name may change and we need to track it. The subsequent steps
+should always use the new name
 
 YAML LINTER http://www.yamllint.com/

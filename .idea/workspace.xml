@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c13b6f-1c7a-4249-b26b-447e691e270b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckDropColumn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/drop/DropColumn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/drop/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/drop/imports/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/drop/imports/imports.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckIdLike.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/__main__.py" afterPath="$PROJECT_DIR$/common/__main__.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/common/PrintablePreprocessorAbstractClass.py" afterPath="$PROJECT_DIR$/preprocessing/common/PrintablePreprocessorAbstractClass.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py" />
       <change beforePath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py" />
       <change beforePath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml" afterPath="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/imputer/FloatImputerStep.py" afterPath="$PROJECT_DIR$/preprocessing/imputer/FloatImputerStep.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py" afterPath="$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/label_encoder/LabelEncoderStep.py" afterPath="$PROJECT_DIR$/preprocessing/label_encoder/LabelEncoderStep.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py" afterPath="$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/one_hot_encoder/OneHotEncoderStep.py" afterPath="$PROJECT_DIR$/preprocessing/one_hot_encoder/OneHotEncoderStep.py" />
-      <change beforePath="$PROJECT_DIR$/test_data/test_data.csv" afterPath="$PROJECT_DIR$/test_data/test_data.csv" />
       <change beforePath="$PROJECT_DIR$/todo_list.txt" afterPath="$PROJECT_DIR$/todo_list.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +20,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checker_steps.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="checker_steps.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="327">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogTransformStep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_list.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pima-indians-diabetes.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/pima-indians-diabetes.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3366">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckIdLike.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckIdLike.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,91 +75,53 @@
       <file leaf-file-name="CheckMissingStrings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="120" lean-forward="false" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
+            <state relative-caret-position="85">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo_list.txt">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DropColumn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/drop/DropColumn.py">
+      <file leaf-file-name="CheckInteger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckInteger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#0#102#0" expanded="true" />
+                <element signature="e#0#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imports.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/drop/imports/imports.py">
+      <file leaf-file-name="CheckMissingIntegers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingIntegers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreprocessorCheckAbstractClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorCheckAbstractClass.py">
+      <file leaf-file-name="CheckDropColumn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckDropColumn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="238">
               <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/test_data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckString.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneHotEncoderStep.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/one_hot_encoder/OneHotEncoderStep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintablePreprocessorAbstractClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/common/PrintablePreprocessorAbstractClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-              <folding />
+              <folding>
+                <element signature="e#0#120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PrintableCodeAbstractClass.py" />
         <option value="$PROJECT_DIR$/models/PrintableModelAbstractClass.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/preprocessing/preprocessor.py" />
@@ -188,8 +178,6 @@
         <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/PreprocessorGraph.py" />
         <option value="$PROJECT_DIR$/common/__main__.py" />
         <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/DropColumn.py" />
-        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py" />
-        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml" />
         <option value="$PROJECT_DIR$/preprocessing/imputer/FloatImputerStep.py" />
         <option value="$PROJECT_DIR$/preprocessing/imputer/IntegerImputerStep.py" />
         <option value="$PROJECT_DIR$/preprocessing/label_encoder/LabelEncoderStep.py" />
@@ -199,8 +187,11 @@
         <option value="$PROJECT_DIR$/test_data/test_data.csv" />
         <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py" />
         <option value="$PROJECT_DIR$/preprocessing/drop/imports/imports.py" />
-        <option value="$PROJECT_DIR$/todo_list.txt" />
         <option value="$PROJECT_DIR$/preprocessing/drop/DropColumn.py" />
+        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckIdLike.py" />
+        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py" />
+        <option value="$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml" />
+        <option value="$PROJECT_DIR$/todo_list.txt" />
       </list>
     </option>
   </component>
@@ -249,27 +240,22 @@
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="drop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="drop" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessor_graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="imputer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="imputer" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessor_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +274,11 @@
               <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
               <item name="one_hot_encoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Open_Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Open_Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -534,13 +525,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todo_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/common/PrintableModelAbstractClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -560,13 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/pima-indians-diabetes.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -678,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckFloat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -752,32 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckDropColumn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#120#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingIntegers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingFloats.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -813,14 +756,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/label_encoder/LabelEncoderStep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
@@ -868,26 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="120" lean-forward="false" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/drop/imports/imports.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -902,10 +821,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml">
+    <entry file="file://$PROJECT_DIR$/preprocessing/log_trasform/LogTransformStep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/pima-indians-diabetes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3366">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckInteger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="13" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckMissingIntegers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckDropColumn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/checks/CheckIdLike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/common/preprocessor_graph/common/checker_steps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding />
         </state>
       </provider>
